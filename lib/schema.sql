@@ -9,17 +9,11 @@ name TEXT
 );
 
 CREATE TABLE series (
-<<<<<<< HEAD
+
 id INTEGER PRIMARY KEY,
 title TEXT,
 author_id INTEGER,
 subgenre_id INTEGER
-=======
-id INTEGER PRIMARY KEY, 
-title TEXT,
-author_id INTEGER,
-subgenres_id INTEGER
->>>>>>> 31c16a172af66124147b6cf3a2097792bed7b320
 );
 
 CREATE TABLE books (
